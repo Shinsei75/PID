@@ -1,4 +1,3 @@
-# PID
 <h1 align="center">Library of the classic PID controller</h1>
 
 ### [Readme on russian](https://github.com/Shinsei75/PID/blob/main/README.ru)
