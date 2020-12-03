@@ -1,7 +1,7 @@
 # PID
 <h1 align="center">Library of the classic PID controller</h1>
 
-### [Readme on russian](https://github.com/Shinsei75/README.ru)
+### [Readme on russian](https://github.com/Shinsei75/PID/blob/main/README.ru)
 
 ## How this work.
 The PID controller accepts two values ​​as input:
