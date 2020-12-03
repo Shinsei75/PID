@@ -1,2 +1,2 @@
 # PID
-PID controller - library
+Library of the classic PID controller
