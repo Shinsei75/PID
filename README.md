@@ -48,7 +48,9 @@ Iteration time: the iteration time can be changed in the process of work (I don'
 The main values of the regulator can be changed anywhere in the program in any convenient way (buttons, encoder, transmission via UART / GSM / WiFi, whatever). The controller coefficients Kp, Ki and Kd can be set and read directly as class members, for example
 
 `regulator.Kp = 1.5;`        // set
+
 `regulator.Ki += 0.7;`       // change
+
 `lcd.print(regulator.Kd);`   // read
 
 The iteration time is changed using the `setDt ()` method.
@@ -56,5 +58,7 @@ The iteration time is changed using the `setDt ()` method.
 Controller values (input, set, output) are also class members and can be accessed directly for reading and writing:
 
 `regulator.input = 10;`     // Controller INPUT, e.g. current temperature
+
 `regulator.setpoint = 20;`  // INSTALLATION of the controller, e.g. required temperature
+
 `analogWrite(regulator.output);`  // The output from the regulator can be fed directly to the PWM or servo
