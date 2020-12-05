@@ -4,4 +4,4 @@
 
 int computePID(float input, float setpoint, float kp, float ki, float kd, float dt, int minOut, int maxOut)
 
-**(input, setting, p, i, d, period in seconds, min. output, max. exit)**
+**(input, setting, p, i, d, period in seconds, min. output, max. output)**
